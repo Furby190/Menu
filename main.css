@@ -1,0 +1,26 @@
+
+html {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+li {
+    padding: 20px 10px;
+    line-height: 160%;
+    cursor: pointer;
+}
+
+li:nth-child(even) {
+    background-color: #eee;
+}
+
+li:nth-child(odd) {
+    background-color: #ccc;
+}
+
+.enabled {
+    font-weight: bold;
+  } 
+.disabled {
+  color: gray;
+}
